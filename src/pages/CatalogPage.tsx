@@ -21,7 +21,7 @@ export function CatalogPage({
           <BackArrow />
           Voltar
         </button>
-        <img src={imgBrisLogotipo} alt="Bris" className="h-9 ml-auto" />
+        <img src="https://res.cloudinary.com/dtxa1leih/image/upload/v1790335517/d992f_z8rjjg.png" alt="Bris" className="h-9 ml-auto" />
       </header>
 
       <div className="px-6 pb-16 max-w-2xl mx-auto">
