@@ -1,6 +1,6 @@
 import { ProductCarousel } from "../components/ProductCarousel";
 import { BackArrow } from "../components/BackArrow";
-import { Product, ALL_PRODUCTS, imgBrisLogotipo } from "../data";
+import { Product, ALL_PRODUCTS } from "../data";
 
 export function CatalogPage({
   onBack,
