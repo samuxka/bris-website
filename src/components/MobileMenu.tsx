@@ -15,7 +15,7 @@ export function MobileMenu({
       <div className="absolute inset-0 bg-black/40" onClick={onClose} />
       <div className="relative bg-[#d9d9d9] w-[85%] max-w-sm h-full pt-6 pb-10 flex flex-col">
         <div className="flex items-center justify-between px-6">
-          <img src="/assets/bee22.png" alt="Bris" className="h-10" />
+          <img src="https://res.cloudinary.com/dtxa1leih/image/upload/v1790335517/bee22_xyj5lj.png" alt="Bris" className="h-10" />
           <button onClick={onClose}>
             <img src={imgClose} alt="fechar" className="w-6 h-6" />
           </button>

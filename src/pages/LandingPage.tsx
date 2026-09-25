@@ -29,7 +29,7 @@ export function LandingPage({
 
       {/* Navbar */}
       <header className="sticky top-0 z-40 flex items-center justify-between px-6 py-5">
-        <img src="/assets/d992f.png" alt="Bris" className="h-10" />
+        <img src="https://res.cloudinary.com/dtxa1leih/image/upload/v1790335517/d992f_z8rjjg.png" alt="Bris" className="h-10" />
         <button onClick={() => setMenuOpen(true)}>
           <img src={imgMenu} alt="menu" className="w-6 h-6" />
         </button>
@@ -48,7 +48,7 @@ export function LandingPage({
         <div className="absolute inset-0 bg-[#0d4380]/80" />
         <div className="relative z-10 flex flex-col items-center gap-8 px-6 text-center">
           <img
-            src="/assets/e8597.png"
+            src="https://res.cloudinary.com/dtxa1leih/image/upload/v1790335517/e8597_hzai4j.png"
             alt="Bris"
             className="w-52 drop-shadow-2xl"
           />
@@ -150,7 +150,7 @@ export function LandingPage({
             </div>
           </div>
           <img
-            src="/assets/e8597.png"
+            src="https://res.cloudinary.com/dtxa1leih/image/upload/v1790335517/e8597_hzai4j.png"
             alt="Bris"
             className="w-40 self-center sm:self-auto"
           />
