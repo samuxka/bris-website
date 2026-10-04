@@ -55,30 +55,29 @@ export const ALL_PRODUCTS: Product[] = [
   {
     id: 2,
     name: "BROWNIE",
-    price: "€15",
+    price: "€8",
     description:
       "Sabores variados, a teu gosto. Faz a tua escolha e desfrute do melhor brownie que já provaste.",
     image: imgProductBrownie,
     category: "Doces",
-    weight: "300g (caixa 6 unidades)",
+    weight: "250g",
     ingredients: ["Chocolate negro 70%", "Manteiga", "Açúcar mascavado", "Ovos", "Farinha de trigo", "Cacau em pó", "Sal flor"],
     allergens: ["Glúten", "Lactose", "Ovos", "Soja"],
     shelf: "5 dias no frigorífico",
-    servings: "6 unidades",
   },
   {
     id: 3,
     name: "Biscoitos",
-    price: "€7",
+    price: "€6",
     description:
       "Biscoitos amanteigados, crocante mas derrete na boca, perfeito para acompanhar um chá ou café.",
     image: imgProductBiscoitos,
     category: "Biscoitos",
-    weight: "500g",
+    weight: "400g",
     ingredients: ["Manteiga", "Açúcar refinado", "Amido de milho", "Farinha de trigo", "Leite condensado"],
     recheios: ["Coco", "Goiabada", "Limão", "Açúcar", "Puro", "Baunilha"],
     allergens: ["Glúten", "Lactose"],
-    shelf: "7 dias em recipiente hermético",
+    shelf: "30 dias em recipiente hermético",
   },
   
 ];
