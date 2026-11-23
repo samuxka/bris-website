@@ -93,5 +93,16 @@ weight: "400g",
     ingredients: ["Leite condensado", "Leite", "Ovos", "Açúcar"],
     allergens: ["Lactose"],
   },
+{
+    id: 5,
+    name: "Panetone Trufado",
+    price: "€26",
+    description:
+      "Macio, Leve e Saboroso tudo isso em uma única receita! Nesse natal leve o seu para dividir com quem você ama!.",
+    image: imgProductPanetone,
+    category: "Pães",
+    ingredients: ["Farinha de trigo", "Fermento", "Ovos", "Açúcar", "Manteiga", "Sal", "Essência de Baunilha", "Leite"],
+    allergens: ["Lactose", "Glúten"],
+  },
   
 ];
