@@ -8,6 +8,7 @@ export const imgProductPanetone = `https://res.cloudinary.com/dtxa1leih/image/up
 export const imgProductTravessa = `https://res.cloudinary.com/dtxa1leih/image/upload/v1795391843/file_00000000d3508210bba98c7c8ea7f916_ikv4li.png`
 export const imgProductBrownie = `https://res.cloudinary.com/dtxa1leih/image/upload/v1790333276/brownie_opxfbt.png`;
 export const imgProductBiscoitos = `https://res.cloudinary.com/dtxa1leih/image/upload/v1790333276/biscoito_n873sd.png`;
+export const imgProductCookie = `https://res.cloudinary.com/dtxa1leih/image/upload/v1795474339/Untitled-1_fiszjk.png`
 export const imgArrowDown = `${assetPathPrefix}/5059e.svg`;
 export const imgMenu = `${assetPathPrefix}/f8103.svg`;
 export const imgClose = `${assetPathPrefix}/b8e40.svg`;
@@ -64,7 +65,7 @@ export const ALL_PRODUCTS: Product[] = [
     image: imgProductBrownie,
     category: "Doces",
     weight: "250g",
-    ingredients: ["Chocolate negro 70%", "Manteiga", "Açúcar mascavado", "Ovos", "Farinha de trigo", "Cacau em pó", "Sal flor"],
+    ingredients: ["Chocolate negro 70%", "Manteiga", "Açúcar mascavado", "Ovos", "Farinha de trigo", "Cacau em pó", "Sal"],
     allergens: ["Glúten", "Lactose", "Ovos", "Soja"],
     shelf: "5 dias no frigorífico",
   },
@@ -90,7 +91,7 @@ weight: "400g",
       "Pudim delicioso pra comer acompanhado com quem você ama! se delicie e aproveite cada colherada desse clássico da culinária.",
     image: imgProductPudim,
     category: "Doces",
-    ingredients: ["Leite condensado", "Leite", "Ovos", "Açúcar"],
+    ingredients: ["Leite condensado", "Leite", "Ovos", "Açúcar", "Amido de milho"],
     allergens: ["Lactose"],
   },
 {
@@ -100,8 +101,9 @@ weight: "400g",
     description:
       "Macio, Leve e Saboroso tudo isso em uma única receita! Nesse natal leve o seu para dividir com quem você ama!",
     image: imgProductPanetone,
+  recheios: ["Ninho e Brigadeiro"],
     category: "Pães",
-    ingredients: ["Farinha de trigo", "Fermento", "Ovos", "Açúcar", "Manteiga", "Sal", "Essência de Baunilha", "Leite"],
+    ingredients: ["Chocotone", "Leite condensado", "Creme de leite", "Chocolate em pó", "Leite em pó", "Manteiga", "Chocolate fracionado", "Granulado"],
     allergens: ["Lactose", "Glúten"],
   },
 {
@@ -112,7 +114,19 @@ weight: "400g",
       "Neste natal nada melhor que aproveitar a noite com um doce!",
     image: imgProductTravessa,
     category: "Doces",
-recheios: ["Uva", "Limão", "Ninho, Chocolate e Nutella - +2€"],
+    recheios: ["Uva", "Limão", "Ninho, Chocolate e Nutella +2€"],
+    allergens: ["Lactose"],
+  },
+  {
+    id: 7,
+    name: "Cookie",
+    price: "€3",
+    description:
+      "Deliciosos cookies recheados ou tradicional, tanto faz! Os dois são de dar água na boca!!",
+    image: imgProductCookie,
+    category: "Biscoitos",
+    recheios: ["Tradicional", "Nutella"],
+    ingredients: ["Farinha de trigo", "Sal", "Fermento quimico em pó", "Bicarbonato de sodio", "Manteiga sem sal", "Açucar mascavo", "Açucar branco", "Ovo", "Essencia de baunilha", "Gotas de chocolate", "Nutella"],
     allergens: ["Lactose"],
   },
   
