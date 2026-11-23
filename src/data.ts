@@ -3,6 +3,9 @@ export const imgBrisLogotipo = `${assetPathPrefix}/d992f.png`;
 export const imgBrisLogotipoBlue = `${assetPathPrefix}/bee22.png`;
 export const imgBrisBlue = `${assetPathPrefix}/e8597.png`;
 export const imgProductBread = `https://res.cloudinary.com/dtxa1leih/image/upload/v1790333277/bread_fhk0vv.png`;
+export const imgProductPudim = `https://res.cloudinary.com/dtxa1leih/image/upload/v1795391843/file_00000000187481f48f43f8dfbf81dd22_w6sbop.png`
+export const imgProductPanetone = `https://res.cloudinary.com/dtxa1leih/image/upload/v1795391842/file_00000000f67882108cde4a0d0a4b5d80_grego2.png`
+export const imgProductTravessa = `https://res.cloudinary.com/dtxa1leih/image/upload/v1795391843/file_00000000d3508210bba98c7c8ea7f916_ikv4li.png`
 export const imgProductBrownie = `https://res.cloudinary.com/dtxa1leih/image/upload/v1790333276/brownie_opxfbt.png`;
 export const imgProductBiscoitos = `https://res.cloudinary.com/dtxa1leih/image/upload/v1790333276/biscoito_n873sd.png`;
 export const imgArrowDown = `${assetPathPrefix}/5059e.svg`;
@@ -73,11 +76,22 @@ export const ALL_PRODUCTS: Product[] = [
       "Biscoitos amanteigados, crocante mas derrete na boca, perfeito para acompanhar um chá ou café.",
     image: imgProductBiscoitos,
     category: "Biscoitos",
-    weight: "400g",
+weight: "400g",
     ingredients: ["Manteiga", "Açúcar refinado", "Amido de milho", "Farinha de trigo", "Leite condensado"],
     recheios: ["Coco", "Goiabada", "Limão", "Açúcar", "Puro", "Baunilha"],
     allergens: ["Glúten", "Lactose"],
     shelf: "30 dias em recipiente hermético",
+  },
+{
+    id: 4,
+    name: "Pudim",
+    price: "€20",
+    description:
+      "Pudim delicioso pra comer acompanhado com quem você ama! se delicie e aproveite cada colherada desse clássico da culinária.",
+    image: imgProductPudim,
+    category: "Doces",
+    ingredients: ["Leite condensado", "Leite", "Ovos", "Açúcar"],
+    allergens: ["Lactose"],
   },
   
 ];
