@@ -98,11 +98,22 @@ weight: "400g",
     name: "Panetone Trufado",
     price: "€26",
     description:
-      "Macio, Leve e Saboroso tudo isso em uma única receita! Nesse natal leve o seu para dividir com quem você ama!.",
+      "Macio, Leve e Saboroso tudo isso em uma única receita! Nesse natal leve o seu para dividir com quem você ama!",
     image: imgProductPanetone,
     category: "Pães",
     ingredients: ["Farinha de trigo", "Fermento", "Ovos", "Açúcar", "Manteiga", "Sal", "Essência de Baunilha", "Leite"],
     allergens: ["Lactose", "Glúten"],
+  },
+{
+    id: 6,
+    name: "Travessa Doce Recheada",
+    price: "€18",
+    description:
+      "Neste natal nada melhor que aproveitar a noite com um doce!",
+    image: imgProductTravessa,
+    category: "Doces",
+recheios: ["Uva", "Limão", "Ninho, Chocolate e Nutella - +2€"],
+    allergens: ["Lactose"],
   },
   
 ];
