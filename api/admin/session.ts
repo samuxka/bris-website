@@ -4,7 +4,7 @@ import {
   parseCookies,
   sendJson,
   verifySessionToken,
-} from '../_security';
+} from '../_security.js';
 
 export default function handler(req: IncomingMessage, res: ServerResponse) {
   if (req.method !== 'GET') {
