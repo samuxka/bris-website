@@ -1,9 +1,11 @@
 import type { HeroSlide, Product, Promotion } from './types';
 
-export const assetPathPrefix = '/assets';
-export const imgBrisLogotipoWhite = `${assetPathPrefix}/d992f.png`;
-export const imgBrisLogotipoBlue = `${assetPathPrefix}/bee22.png`;
-export const imgBrisMascot = `${assetPathPrefix}/e8597.png`;
+export const imgBrisLogotipoWhite =
+  'https://res.cloudinary.com/dtxa1leih/image/upload/v1790335517/d992f_z8rjjg.png';
+export const imgBrisLogotipoBlue =
+  'https://res.cloudinary.com/dtxa1leih/image/upload/v1790335517/bee22_xyj5lj.png';
+export const imgBrisMascot =
+  'https://res.cloudinary.com/dtxa1leih/image/upload/v1790335517/e8597_hzai4j.png';
 
 export const WHATSAPP_NUMBER = '351961800870';
 export const PHONE_DISPLAY = '961 800 870';
