@@ -333,6 +333,12 @@ export function StoreProvider({ children }: { children: ReactNode }) {
         slugify(draft.slug || draft.name) || `produto-${Date.now()}`;
       const sbToken = sessionStorage.getItem(SS_SB_TOKEN_KEY);
 
+if (!supabase || !sbToken || dbStatus !== 'supabase') {
+  throw new Error(
+    'Sem conexão ou sessão válida no Supabase. Entre novamente no painel.'
+  );
+}
+
       if (supabase && sbToken && dbStatus === 'supabase') {
         const { data, error } = await supabase.rpc('admin_upsert_product', {
           p_token: sbToken,
@@ -392,6 +398,12 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const deleteProduct = useCallback(
     async (id: number) => {
       const sbToken = sessionStorage.getItem(SS_SB_TOKEN_KEY);
+
+if (!supabase || !sbToken || dbStatus !== 'supabase') {
+  throw new Error(
+    'Sem conexão ou sessão válida no Supabase. Entre novamente no painel.'
+  );
+}
       if (supabase && sbToken && dbStatus === 'supabase') {
         const { error } = await supabase.rpc('admin_delete_product', {
           p_token: sbToken,
@@ -427,6 +439,12 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       const cleanSlug =
         slugify(draft.slug || draft.title) || `promocao-${Date.now()}`;
       const sbToken = sessionStorage.getItem(SS_SB_TOKEN_KEY);
+
+if (!supabase || !sbToken || dbStatus !== 'supabase') {
+  throw new Error(
+    'Sem conexão ou sessão válida no Supabase. Entre novamente no painel.'
+  );
+}
 
       if (supabase && sbToken && dbStatus === 'supabase') {
         const { data, error } = await supabase.rpc('admin_upsert_promotion', {
@@ -482,6 +500,12 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const deletePromotion = useCallback(
     async (id: number) => {
       const sbToken = sessionStorage.getItem(SS_SB_TOKEN_KEY);
+
+if (!supabase || !sbToken || dbStatus !== 'supabase') {
+  throw new Error(
+    'Sem conexão ou sessão válida no Supabase. Entre novamente no painel.'
+  );
+}
       if (supabase && sbToken && dbStatus === 'supabase') {
         const { error } = await supabase.rpc('admin_delete_promotion', {
           p_token: sbToken,
