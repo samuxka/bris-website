@@ -6,7 +6,7 @@ import {
   sendJson,
   signSessionToken,
   verifyPinScrypt,
-} from '../_security';
+} from '../_security.js';
 
 const attempts = new Map<string, { count: number; resetAt: number }>();
 
