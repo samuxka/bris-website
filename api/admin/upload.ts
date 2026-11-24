@@ -9,7 +9,7 @@ import {
   readBody,
   sendJson,
   verifySessionToken,
-} from '../_security';
+} from '../_security.js';
 
 async function uploadToCloudinary(
   dataUri: string,
