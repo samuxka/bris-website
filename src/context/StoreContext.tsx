@@ -303,9 +303,11 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       }
 
       return {
-        ok: false,
-        error: serverRes.error || 'Código de acesso incorreto.',
-      };
+  ok: false,
+  error: !serverRes.ok
+    ? serverRes.error || 'Erro na autenticação do servidor.'
+    : 'Falha na autenticação do Supabase. Verifique o PIN e a configuração do banco de dados.',
+};
     },
     [fetchAllData]
   );
