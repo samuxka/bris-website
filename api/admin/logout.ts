@@ -1,5 +1,5 @@
 import type { IncomingMessage, ServerResponse } from 'node:http';
-import { SESSION_COOKIE_NAME, sendJson } from '../_security';
+import { SESSION_COOKIE_NAME, sendJson } from '../_security.js';
 
 export default function handler(req: IncomingMessage, res: ServerResponse) {
   if (req.method !== 'POST') {
