@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Menu, Search, ShoppingBag, X } from 'lucide-react';
-import { imgBrisLogotipoBlue } from '../data';
+import imgBrisLogotipoBlue from '../../public/assets/bee22.png';
 import { useStore } from '../context/StoreContext';
 import { formatPrice } from '../lib/supabase';
 import type { Product } from '../types';
