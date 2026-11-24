@@ -296,7 +296,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
         }
       }
 
-      if (serverRes.ok || sbOk) {
+      if (serverRes.ok && sbOk) {
         setIsAdmin(true);
         await fetchAllData(true);
         return { ok: true };
