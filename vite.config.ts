@@ -1,11 +1,12 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
-import path from 'node:path'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import tailwindcss from '@tailwindcss/vite';
+import path from 'node:path';
+import { adminApiPlugin } from './server/adminApiPlugin';
 
 // Vite config — https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
-  const emitSourcemaps = mode === 'development'
+  const emitSourcemaps = mode === 'development';
 
   return {
     base: '/',
@@ -16,6 +17,7 @@ export default defineConfig(({ mode }) => {
     plugins: [
       react(),
       tailwindcss(),
+      adminApiPlugin(mode),
     ],
     resolve: {
       alias: {
@@ -31,5 +33,5 @@ export default defineConfig(({ mode }) => {
       host: '0.0.0.0',
       port: parseInt(process.env.PORT || '8443'),
     },
-  }
-})
+  };
+});
