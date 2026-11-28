@@ -248,7 +248,7 @@ export function ProductDetailPage({
               <button
                 type="button"
                 onClick={handleAddToCart}
-                className="flex-1 p-6 rounded-xl bg-[#0d4380] hover:bg-[#092d58] text-white text-sm font-bold flex items-center justify-center gap-2 transition-colors shadow-md shadow-[#0d4380]/20 cursor-pointer"
+                className="flex-1 p-5 rounded-xl bg-[#0d4380] hover:bg-[#092d58] text-white text-sm font-bold flex items-center justify-center gap-2 transition-colors shadow-md shadow-[#0d4380]/20 cursor-pointer"
               >
                 {justAdded ? (
                   <>
